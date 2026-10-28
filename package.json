@@ -1,0 +1,17 @@
+
+
+{
+"name": "nodeproject",
+"version": "1.0.0",
+"description": "Student data encryption and decryption project",
+"main": "server.js",
+"scripts": {
+"start": "node server.js",
+"generate-keys": "node generateKey.js",
+"encrypt": "node encrypt.js",
+"decrypt": "node decrypt.js"
+},
+"keywords": [],
+"author": "",
+"license": "ISC"
+}
