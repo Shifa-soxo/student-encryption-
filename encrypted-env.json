@@ -1,0 +1,6 @@
+{
+  "algorithm": "aes-256-gcm",
+  "iv": "a43572a1167cfec203a512b6",
+  "authTag": "aa5307936fe65eabacfd6724d66672a1",
+  "encryptedData": "998ebb05751aab01f871cbbc7e46edcb611301c630d028b93d53182eb7f94c31d5a338141ba0160d7dfb262e29caddd0280c0181f17911855ce0"
+}

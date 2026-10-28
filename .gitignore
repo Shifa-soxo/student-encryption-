@@ -1,4 +1,5 @@
 node_modules/
-private.pem
 .env
+private.pem
+env-encryption-key.txt
 decrypted-models.json

@@ -1,17 +1,23 @@
-
-
 {
-"name": "nodeproject",
-"version": "1.0.0",
-"description": "Student data encryption and decryption project",
-"main": "server.js",
-"scripts": {
-"start": "node server.js",
-"generate-keys": "node generateKey.js",
-"encrypt": "node encrypt.js",
-"decrypt": "node decrypt.js"
-},
-"keywords": [],
-"author": "",
-"license": "ISC"
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "Node.js student data encryption project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-keys": "node generateKeys.js",
+    "encrypt": "node encrypt.js",
+    "decrypt": "node decrypt.js",
+    "encrypt-env": "node encryptEnv.js"
+  },
+  "keywords": [
+    "nodejs",
+    "encryption",
+    "student-data"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
