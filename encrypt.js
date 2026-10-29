@@ -20,6 +20,7 @@ encryptedData += cipher.final("hex");
 const authTag = cipher.getAuthTag();
 
 // Encrypt AES key using public key
+
 const encryptedKey = crypto.publicEncrypt(
     {
         key: publicKey,
@@ -28,7 +29,6 @@ const encryptedKey = crypto.publicEncrypt(
     },
     aesKey
 );
-
 // Save encrypted data
 const result = {
     encryptedKey: encryptedKey.toString("base64"),
@@ -44,3 +44,4 @@ fs.writeFileSync(
 
 console.log("models.json encrypted successfully!");
 console.log("Encrypted data saved to encrypted-data.json");
+
